@@ -8,6 +8,7 @@ var newName = 'Maja';
 
 if (allNames.indexOf(newName) === -1) {
     var newName = allNames.push(newName);
+    alert(allNames);
     console.log(allNames);
 }
 
